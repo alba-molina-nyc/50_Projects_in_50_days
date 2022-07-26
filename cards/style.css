@@ -55,8 +55,8 @@ body {
         width: 100vw;
     }
 
-    .panel:nth-of-type(5),
-    .panel:nth-of-type(6) {
+    .panel:nth-of-type(8),
+    .panel:nth-of-type(9) {
         display: none;
     }
 
