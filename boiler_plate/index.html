@@ -6,10 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css"/>
-    <title>My Project</title>
+    <title>Rotating Navigation</title>
 </head>
 <body>
-    <h1>My project</h1>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times">
+
+                    </i>
+                </button>
+                <button id="open">
+                    <i class="fasfa-bars">
+
+                    </i>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Amazing Article</h1>
+            <small>Florin Pop</small>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or 
+                randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't 
+                anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
+                making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence 
+                structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, 
+                or non-characteristic words etc.
+            </p>
+            <h3>My Dog</h3>
+            <img src="https://images.unsplash.com/photo-1618188644631-54528c4f8ef7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dHV4ZWRvJTIwY2F0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60" 
+            alt="doggy" 
+            />
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo a accusantium sit temporibus, provident voluptas explicabo quis in ducimus magnam 
+                ipsam, optio expedita consequuntur iste? Ipsa dignissimos officia a perspiciatis!
+            </p>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <i class="fas fa-home"></i>
+                Home
+            </li>
+            <li>
+                <i class="fas fa-user-alt"></i>
+               About
+            </li>
+            <li>
+                <i class="fas fa-envelope"></i>
+               Contact
+            </li>
+            
+        </ul>
+    </nav>
     <script src="script.js"></script>
 </body>
 </html>
