@@ -41,6 +41,12 @@ body {
     transition: transform 0.5s;
 }
 
+.container.show-nav .circle {
+    transform: rotate(-70deg)
+
+
+}
+
 .circle button {
     position: absolute;
     top: 50%;
