@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efedd6;
+    font-family: 'Roboto', 'sans-serif';
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+
+.box {
+    background-color: steelblue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;  /* to separate */
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0,0,0,0.3); 
+    /* animation -> transform property with translate x bc we want to move them along x axis */
+    transform: translateX(400%); /* horizontal x axis (0default and noting happens) set to 200 to disappear */
+    transition: transform 0.7s ease;
+    width: 75vw;
+    height: 50vw;
+    cursor: pointer;
+
+}
+
+.box.show{  /* box with class of show */
+    transform: translateX(0)  /* set to 0 which is default to bring back to reg position */
+}
+
+.box:nth-of-type(even) { /* psudo selector sets right to one side and left to other side so they come in from diff sides */
+    transform: translatex(-400);
+}
+
+.nav-bar-option, .employers {
+    list-style-type: none;
+}
+
